@@ -13,7 +13,7 @@ Set working folder : cd "Path"
 Clone the Remote project
 git clone "https://github.com/demoworking/demoProject.git"
 
-init the  to the Dir
+Init the  to the Dir
 git init
 
 Show status of folder including track/untrack file
@@ -22,5 +22,21 @@ git status
 To add file in tracking
 git add "GitCmdHelp.txt"
 
+To commit the changes
+git commit -a -m "[commit message]"
+
 To push the changes to web site
 git push [In case of account not set the it will promot for autorization . follow it and after sucess code will get push to remote]
+
+To list all branch
+git branch
+
+Crete new branch
+git checkout -b [branchName]
+
+To get diff in between 2 branch
+git diff master..[newBranchName]
+
+To pull from remote
+git pull
+
