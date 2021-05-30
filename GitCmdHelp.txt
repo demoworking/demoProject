@@ -1,2 +1,26 @@
+
+URL: https://git-scm.com/downloads
+CMD Doc: https://git-scm.com/docs
+
+git-bash - Open the CLI of Git
+
+Set the user Name,Email use in  git
+git config --global user.name "userName"
+git config --global user.name "emailAddress"
+
+Set working folder : cd "Path"
+
 Clone the Remote project
 git clone "https://github.com/demoworking/demoProject.git"
+
+init the  to the Dir
+git init
+
+Show status of folder including track/untrack file
+git status
+
+To add file in tracking
+git add "GitCmdHelp.txt"
+
+To push the changes to web site
+git push [In case of account not set the it will promot for autorization . follow it and after sucess code will get push to remote]
