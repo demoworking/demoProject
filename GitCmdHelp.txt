@@ -40,3 +40,7 @@ git diff master..[newBranchName]
 To pull from remote
 git pull
 
+To get commit log
+git log
+
+
